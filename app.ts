@@ -12,7 +12,7 @@ const port: number = 3000
 // configure form data
 app.use(express.json())
 app.use(express.urlencoded({extended: false}))
-app.use(appLogger)
+// app.use(appLogger)
 
 
 // route to the home page 
